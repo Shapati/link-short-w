@@ -94,22 +94,7 @@ getlink.addEventListener('submit',e=>{
   
   }else{
     
-    const html =`
-    <div class="resultflex">
-  
-    <div class="mainlink">
-    
-    </div>
-    <div class="shortlink">
-    <a style=" text-align:center; "> ${data.error}</a>
-    
-    </div>
-    </div>
-    `
- 
-  
-    result.innerHTML+=html;
-    resultforres.innerHTML+=html
+    alert(data.error)
 
   }
    
